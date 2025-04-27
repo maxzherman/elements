@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Elements</h1>
+  <p id="intro"></p> <!-- THIS LINE IS MISSING in your version -->
+  <div id="specialMessage"></div> <!-- Cozy animated message area -->
+
+  <div id="elements" class="container"></div>
+
+  <div id="selected" class="container">
+    <h2>Selected Elements</h2>
+    <p id="selection">None</p>
+  </div>
+
+  <div id="results" class="container">
+    <h2>Discovered Elements</h2>
+    <p id="counter"></p> <!-- NEW Counter Display -->
+    <ul id="discovered"></ul>
+  </div>
+
+  <canvas id="confettiCanvas"></canvas> <!-- For confetti effects -->
+
+  <script src="elements.js"></script>
+  <button onclick="resetProgress()">Reset Progress</button>
+
+</body>
+</html>
