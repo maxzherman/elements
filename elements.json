@@ -10,6 +10,7 @@
         {
             "input": [
                 "Earth 🌍",
+            
                 "Water 💧"
             ],
             "result": "Mud 🪨"
@@ -20,6 +21,13 @@
                 "Fire 🔥"
             ],
             "result": "Lava 🌋"
+        },
+         {
+            "input": [
+                "Earth 🌍",
+                "love 🔥"
+            ],
+            "result": "fun 🌋"
         },
         {
             "input": [
