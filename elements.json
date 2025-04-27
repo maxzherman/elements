@@ -429,15 +429,12 @@
             ],
             "result": "The Notebook 📖"
         },
-        [
-  { "input": ["Life 🌿", "Energy ⚡"], "result": "Food 🍽️" }  ],
-        
- [ { "input": ["Heart ❤️", "Body 🧍"], "result": "Health 🩺" }],
-[  { "input": ["Air 🌬️", "Earth 🌍"], "result": "Movement 🏃‍♀️" },],
- [ { "input": ["Water 💧", "Plant 🌱"], "result": "Drink 🥤" },],
- [ { "input": ["Earth 🌍", "Stone 🪨"], "result": "Mountain 🏔️" },],
- [ { "input": ["Rain 🌧️", "Air 🌬️"], "result": "Snow ❄️" }
-],
+  { "input": ["Life 🌿", "Energy ⚡"], "result": "Food 🍽️" },
+        { "input": ["Heart ❤️", "Body 🧍"], "result": "Health 🩺" },
+{ "input": ["Air 🌬️", "Earth 🌍"], "result": "Movement 🏃‍♀️" },
+{ "input": ["Water 💧", "Plant 🌱"], "result": "Drink 🥤" },
+{ "input": ["Earth 🌍", "Stone 🪨"], "result": "Mountain 🏔️" },
+ { "input": ["Rain 🌧️", "Air 🌬️"], "result": "Snow ❄️" },
         {
             "input": [
                 "TV 📺",
@@ -547,8 +544,7 @@
 { "input": ["Plant 🌱", "Tools 🛠️"], "result": "Fabric 🧵" },
 { "input": ["Fabric 🧵", "Creativity 🎨"], "result": "Clothes 👗" },
 { "input": ["Health 🩺", "Foot 🦶"], "result": "Reflexology 👣" },
-{ "input": ["Home 🏡", "Money 💰"], "result": "Work 💼" }
-,
+{ "input": ["Home 🏡", "Money 💰"], "result": "Work 💼" },
         {
             "input": [
                 "Love ❤️",
