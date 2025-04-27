@@ -229,6 +229,9 @@
             ],
             "result": "Friend 🧑‍🤝‍🧑"
         },
+        { "input": ["Air 🌬️", "Heart ❤️"], "result": "Creativity 🎨" },
+{ "input": ["Tree 🌳", "Tools 🛠️"], "result": "Paper 📄" },
+{ "input": ["Creativity 🎨", "Paper 📄"], "result": "Drawing 🎨" },
         {
             "input": [
                 "Friend 🧑‍🤝‍🧑",
