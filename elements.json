@@ -429,6 +429,14 @@
             ],
             "result": "The Notebook 📖"
         },
+        [
+  { "input": ["Life 🌿", "Energy ⚡"], "result": "Food 🍽️" },
+  { "input": ["Heart ❤️", "Body 🧍"], "result": "Health 🩺" },
+  { "input": ["Air 🌬️", "Earth 🌍"], "result": "Movement 🏃‍♀️" },
+  { "input": ["Water 💧", "Plant 🌱"], "result": "Drink 🥤" },
+  { "input": ["Earth 🌍", "Stone 🪨"], "result": "Mountain 🏔️" },
+  { "input": ["Rain 🌧️", "Air 🌬️"], "result": "Snow ❄️" }
+],
         {
             "input": [
                 "TV 📺",
