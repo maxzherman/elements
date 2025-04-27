@@ -219,6 +219,10 @@
             "result": "Grandma 👵"
         },
         {
+  "input": ["Hug 🤗", "Heart ❤️"],
+  "result": "Fun 🎉"
+},
+        {
             "input": [
                 "Love ❤️",
                 "Fun 🎉"
