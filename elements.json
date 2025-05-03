@@ -1,566 +1,99 @@
 {
-    "intro_message": "Welcome to a new world. Start with Earth 🌍, Water 💧, Fire 🔥, and Air 🌬️... and slowly discover all the love & laughter.",
-    "elements": [
-        "Earth 🌍",
-        "Water 💧",
-        "Fire 🔥",
-        "Air 🌬️"
-    ],
-    "combinations": [
-        {
-            "input": [
-                "Earth 🌍",
-            
-                "Water 💧"
-            ],
-            "result": "Mud 🪨"
-        },
-        {
-            "input": [
-                "Earth 🌍",
-                "Fire 🔥"
-            ],
-            "result": "Lava 🌋"
-        },
-        {
-            "input": [
-                "Earth 🌍",
-                "Air 🌬️"
-            ],
-            "result": "Dust 🌪️"
-        },
-        {
-            "input": [
-                "Water 💧",
-                "Fire 🔥"
-            ],
-            "result": "Steam 💨"
-        },
-        {
-            "input": [
-                "Water 💧",
-                "Air 🌬️"
-            ],
-            "result": "Cloud ☁️"
-        },
-        {
-            "input": [
-                "Fire 🔥",
-                "Air 🌬️"
-            ],
-            "result": "Smoke 🌫️"
-        },
-        {
-            "input": [
-                "Lava 🌋",
-                "Water 💧"
-            ],
-            "result": "Stone 🪨"
-        },
-        {
-            "input": [
-                "Stone 🪨",
-                "Air 🌬️"
-            ],
-            "result": "Sand 🏖️"
-        },
-        {
-            "input": [
-                "Cloud ☁️",
-                "Water 💧"
-            ],
-            "result": "Rain 🌧️"
-        },
-        {
-            "input": [
-                "Rain 🌧️",
-                "Earth 🌍"
-            ],
-            "result": "Plant 🌱"
-        },
-        {
-            "input": [
-                "Plant 🌱",
-                "Energy ⚡"
-            ],
-            "result": "Life 🌿"
-        },
-        {
-            "input": [
-                "Life 🌿",
-                "Nature 🌳"
-            ],
-            "result": "Animal 🐾"
-        },
-        {
-            "input": [
-                "Animal 🐾",
-                "Home 🏡"
-            ],
-            "result": "Dog 🐶"
-        },
-        {
-            "input": [
-                "Dog 🐶",
-                "Memory 🧠"
-            ],
-            "result": "Albert 🐶❤️"
-        },
-        {
-            "input": [
-                "Plant 🌱",
-                "Earth 🌍"
-            ],
-            "result": "Tree 🌳"
-        },
-        {
-            "input": [
-                "Tree 🌳",
-                "Rain 🌧️"
-            ],
-            "result": "Flower 🌸"
-        },
-        {
-            "input": [
-                "Flower 🌸",
-                "Rain 🌧️"
-            ],
-            "result": "Garden 🌼"
-        },
-        {
-            "input": [
-                "Garden 🌼",
-                "Air 🌬️"
-            ],
-            "result": "Heart ❤️"
-        },
-        {
-            "input": [
-                "Heart ❤️",
-                "Heart ❤️"
-            ],
-            "result": "Love ❤️"
-        },
-        {
-            "input": [
-                "Love ❤️",
-                "Heart ❤️"
-            ],
-            "result": "Hug 🤗"
-        },
-        {
-            "input": [
-                "Hug 🤗",
-                "Love ❤️"
-            ],
-            "result": "Home 🏡"
-        },
-        {
-            "input": [
-                "Hug 🤗",
-                "Fun 🎉"
-            ],
-            "result": "Laughter 😂"
-        },
-        {
-            "input": [
-                "Heart ❤️",
-                "Laughter 😂"
-            ],
-            "result": "Smile 😊"
-        },
-        {
-            "input": [
-                "Smile 😊",
-                "Heart ❤️"
-            ],
-            "result": "Memory 🧠"
-        },
-        {
-            "input": [
-                "Love ❤️",
-                "Home 🏡"
-            ],
-            "result": "Family 👨‍👩‍👧‍👦"
-        },
-        {
-            "input": [
-                "Family 👨‍👩‍👧‍👦",
-                "Family 👨‍👩‍👧‍👦"
-            ],
-            "result": "Mum 👩"
-        },
-        {
-            "input": [
-                "Mum 👩",
-                "Family 👨‍👩‍👧‍👦"
-            ],
-            "result": "Dad 👨"
-        },
-        {
-            "input": [
-                "Mum 👩",
-                "Dad 👨"
-            ],
-            "result": "Baby 👶"
-        },
-        {
-            "input": [
-                "Memory 🧠",
-                "Family 👨‍👩‍👧‍👦"
-            ],
-            "result": "Grandpa 👴"
-        },
-        {
-            "input": [
-                "Heart ❤️",
-                "Memory 🧠"
-            ],
-            "result": "Grandma 👵"
-        },
-        {
-  "input": ["Hug 🤗", "Heart ❤️"],
-  "result": "Fun 🎉"
-},
-        {
-            "input": [
-                "Love ❤️",
-                "Fun 🎉"
-            ],
-            "result": "Friend 🧑‍🤝‍🧑"
-        },
-        { "input": ["Air 🌬️", "Heart ❤️"], "result": "Creativity 🎨" },
-{ "input": ["Tree 🌳", "Tools 🛠️"], "result": "Paper 📄" },
-{ "input": ["Creativity 🎨", "Paper 📄"], "result": "Drawing 🎨" },
-        { "input": ["Metal ⚙️", "Stone 🪨"], "result": "Tools 🛠️" },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Smile 😊"
-            ],
-            "result": "Charlotte 😊"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Drawing 🎨"
-            ],
-            "result": "Delilah 🎨"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Energy ⚡"
-            ],
-            "result": "Danny ⚡"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Memory 🧠"
-            ],
-            "result": "Jessy K 🧠"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Hug 🤗"
-            ],
-            "result": "Jessy B 🤗"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Clothes 👕"
-            ],
-            "result": "Jodie 👗"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Tech 💻"
-            ],
-            "result": "Tash 💻"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Love ❤️"
-            ],
-            "result": "Max 💙"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Residential 🏡"
-            ],
-            "result": "Daisy 🏡"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Work 💼"
-            ],
-            "result": "Sam 💼"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Reflexology 👣"
-            ],
-            "result": "Brit 👣"
-        },
-        {
-            "input": [
-                "Friend 🧑‍🤝‍🧑",
-                "Baby 👶"
-            ],
-            "result": "Tash 💻👶"
-        },
-        {
-            "input": [
-                "Family 👨‍👩‍👧‍👦",
-                "Fire 🔥"
-            ],
-            "result": "Olivia 🔥"
-        },
-        {
-            "input": [
-                "Family 👨‍👩‍👧‍👦",
-                "Tech 💻"
-            ],
-            "result": "Charlie 🧑‍💻"
-        },
-        {
-            "input": [
-                "Olivia 🔥",
-                "Charlie 🧑‍💻"
-            ],
-            "result": "Rita 👶"
-        },
-        {
-            "input": [
-                "Stone 🪨",
-                "Fire 🔥"
-            ],
-            "result": "Metal ⚙️"
-        },
-        {
-            "input": [
-                "Metal ⚙️",
-                "Fire 🔥"
-            ],
-            "result": "Wire 🧵"
-        },
-        {
-            "input": [
-                "Wire 🧵",
-                "Metal ⚙️"
-            ],
-            "result": "Electricity ⚡"
-        },
-        {
-            "input": [
-                "Electricity ⚡",
-                "Air 🌬️"
-            ],
-            "result": "Energy ⚡"
-        },
-        {
-            "input": [
-                "Electricity ⚡",
-                "Fun 🎉"
-            ],
-            "result": "TV 📺"
-        },
-        {
-            "input": [
-                "Energy ⚡",
-                "Heart ❤️"
-            ],
-            "result": "Signal 📡"
-        },
-        {
-            "input": [
-                "Signal 📡",
-                "Wire 🧵"
-            ],
-            "result": "Phone 📱"
-        },
-        {
-            "input": [
-                "Phone 📱",
-                "Energy ⚡"
-            ],
-            "result": "Computer 💻"
-        },
-        {
-            "input": [
-                "Computer 💻",
-                "Fun 🎉"
-            ],
-            "result": "TikTok 🎵"
-        },
-        {
-            "input": [
-                "Computer 💻",
-                "Photo 📸"
-            ],
-            "result": "Instagram 📸"
-        },
-        {
-            "input": [
-                "TV 📺",
-                "Fun 🎉"
-            ],
-            "result": "Mean Girls 💋"
-        },
-        {
-            "input": [
-                "TV 📺",
-                "Love ❤️"
-            ],
-            "result": "Married at First Sight 💍"
-        },
-        {
-            "input": [
-                "TV 📺",
-                "Memory 🧠"
-            ],
-            "result": "The Notebook 📖"
-        },
-  { "input": ["Life 🌿", "Energy ⚡"], "result": "Food 🍽️" },
-        { "input": ["Life 🌿", "Heart ❤️"], "result": "Body 🧍"},
-        { "input": ["Heart ❤️", "Body 🧍"], "result": "Health 🩺" },
-{ "input": ["Air 🌬️", "Earth 🌍"], "result": "Movement 🏃‍♀️" },
-        { "input": ["Body 🧍", "Movement 🏃‍♀️"], "result": "Foot 🦶"},
-
-{ "input": ["Water 💧", "Plant 🌱"], "result": "Drink 🥤" },
-{ "input": ["Earth 🌍", "Stone 🪨"], "result": "Mountain 🏔️" },
- { "input": ["Rain 🌧️", "Air 🌬️"], "result": "Snow ❄️" },
-             { "input": ["Metal ⚙️", "Energy ⚡"], "result": "Tech 💻" },
-{ "input": ["Plant 🌱", "Tools 🛠️"], "result": "Fabric 🧵" },
-{ "input": ["Fabric 🧵", "Creativity 🎨"], "result": "Clothes 👗" },
-{ "input": ["Health 🩺", "Foot 🦶"], "result": "Reflexology 👣" },
-{ "input": ["Home 🏡", "Money 💰"], "result": "Work 💼" },
-        {
-            "input": [
-                "TV 📺",
-                "Heart ❤️"
-            ],
-            "result": "The Blind Side 🏈"
-        },
-        {
-            "input": [
-                "Plant 🌱",
-                "Food 🍽️"
-            ],
-            "result": "Chicken 🍗"
-        },
-        {
-            "input": [
-                "Plant 🌱",
-                "Plant 🌱"
-            ],
-            "result": "Salad 🥗"
-        },
-        {
-            "input": [
-                "Food 🍽️",
-                "Chicken 🍗"
-            ],
-            "result": "Chicken Thighs 🍗"
-        },
-        {
-            "input": [
-                "Food 🍽️",
-                "Salad 🥗"
-            ],
-            "result": "Greek Salad 🥗"
-        },
-        {
-            "input": [
-                "Health 🩺",
-                "Drink 🥤"
-            ],
-            "result": "Symprove 🥤"
-        },
-        {
-            "input": [
-                "Health 🩺",
-                "Movement 🏃‍♀️"
-            ],
-            "result": "Personal Trainer 🏋️‍♂️"
-        },
-        {
-            "input": [
-                "Health 🩺",
-                "Heart ❤️"
-            ],
-            "result": "Therapy 🧘‍♂️"
-        },
-        {
-            "input": [
-                "Therapy 🧘‍♂️",
-                "Heart ❤️"
-            ],
-            "result": "Mindfulness 🧘‍♀️"
-        },
-        {
-            "input": [
-                "Health 🩺",
-                "Foot 🦶"
-            ],
-            "result": "Reflexology 👣"
-        },
-        {
-            "input": [
-                "Mountain 🏔️",
-                "Snow ❄️"
-            ],
-            "result": "Skiing 🎿"
-        },
-        {
-            "input": [
-                "Sand 🏖️",
-                "Water 💧"
-            ],
-            "result": "Beach 🏖️"
-        },
-        {
-            "input": [
-                "Beach 🏖️",
-                "Sun ☀️"
-            ],
-            "result": "Marbella ☀️🏖️"
-        },
-        {
-            "input": [
-                "Adventure 🧭",
-                "Love ❤️"
-            ],
-            "result": "Budapest 🇭🇺"
-        },
-        {
-            "input": [
-                "Sun ☀️",
-                "Relaxation 🧘‍♀️"
-            ],
-            "result": "Cyprus 🇨🇾"
-        },
-        {
-            "input": [
-                "Love ❤️",
-                "Forever ♾️"
-            ],
-            "result": "Us ❤️‍🔥"
-        }
-    ],
-    "hidden_ending": {
-        "trigger": [
-            "Love ❤️",
-            "Forever ♾️"
-        ],
-        "message": "It all began with Earth 🌍, Water 💧, Fire 🔥, and Air 🌬️... but it ended with Us ❤️‍🔥."
-    }
+  "intro_message": "Welcome to the Lendhub world. Start with Earth 🌍, Water 💧, Fire 🔥, Air 🌬️, People 🧑‍🤝‍🧑, and Time 🕒... and combine to uncover all things property finance, teams, and Lendhub magic.",
+  "elements": [
+    "Earth 🌍",
+    "Water 💧",
+    "Fire 🔥",
+    "Air 🌬️",
+    "People 🧑‍🤝‍🧑",
+    "Time 🕒"
+  ],
+  "combinations": [
+    { "input": ["People 🧑‍🤝‍🧑", "Time 🕒"],            "result": "Law ⚖️" },
+    { "input": ["Earth 🌍",    "People 🧑‍🤝‍🧑"],       "result": "Wood 🌲" },
+    { "input": ["Fire 🔥",     "Air 🌬️"],             "result": "Energy ⚡" },
+    { "input": ["Earth 🌍",    "Air 🌬️"],             "result": "Sand 🏜️" },
+    { "input": ["Earth 🌍",    "Water 💧"],           "result": "Clay 🏺" },
+    { "input": ["Water 💧",    "Air 🌬️"],             "result": "Mist 🌫️" },
+    { "input": ["Wood 🌲",     "Energy ⚡"],           "result": "Paper 📄" },
+    { "input": ["People 🧑‍🤝‍🧑", "Paper 📄"],          "result": "Money 💰" },
+    { "input": ["Paper 📄",    "Law ⚖️"],             "result": "Contract 📜" },
+    { "input": ["Money 💰",    "Contract 📜"],        "result": "Loan 🏦" },
+    { "input": ["Loan 🏦",     "Time 🕒"],             "result": "Interest ⏳" },
+    { "input": ["Loan 🏦",     "Interest ⏳"],         "result": "Debt 📉" },
+    { "input": ["Clay 🏺",     "Fire 🔥"],             "result": "Brick 🧱" },
+    { "input": ["Sand 🏜️",     "Water 💧"],           "result": "Cement 🏗️" },
+    { "input": ["Brick 🧱",    "Cement 🏗️"],          "result": "Property 🏠" },
+    { "input": ["Mist 🌫️",     "Time 🕒"],             "result": "Uncertainty ❓" },
+    { "input": ["Paper 📄",    "Energy ⚡"],           "result": "Finance 💳" },
+    { "input": ["Uncertainty ❓","Finance 💳"],        "result": "Risk ⚠️" },
+    { "input": ["Property 🏠", "Law ⚖️"],             "result": "Collateral 🔒" },
+    { "input": ["Debt 📉",     "Collateral 🔒"],       "result": "Mortgage 🏡" },
+    { "input": ["Finance 💳",  "Property 🏠"],         "result": "Gap ➖" },
+    { "input": ["Gap ➖",       "Time 🕒"],             "result": "Bridging 🌉" },
+    { "input": ["Bridging 🌉", "Loan 🏦"],             "result": "BridgingLoan 🌉🏦" },
+    { "input": ["People 🧑‍🤝‍🧑","Energy ⚡"],           "result": "Work 🛠️" },
+    { "input": ["Property 🏠", "Work 🛠️"],             "result": "Refurbishment 🛠️🏠" },
+    { "input": ["Refurbishment 🛠️🏠","Loan 🏦"],       "result": "RefurbishmentLoan 🏠💰" },
+    { "input": ["Property 🏠", "Time 🕒"],             "result": "Growth 🌱" },
+    { "input": ["Property 🏠", "Growth 🌱"],           "result": "Development 🏗️" },
+    { "input": ["Development 🏗️","Loan 🏦"],           "result": "DevelopmentLoan 🏗️💰" },
+    { "input": ["Debt 📉",     "Risk ⚠️"],            "result": "JuniorDebt 👶💰" },
+    { "input": ["Property 🏠", "Finance 💳"],         "result": "Lendhub 🏢" },
+    { "input": ["People 🧑‍🤝‍🧑","Lendhub 🏢"],         "result": "Leadership 🕴️" },
+    { "input": ["Leadership 🕴️","Growth 🌱"],         "result": "Strategy 🗺️" },
+    { "input": ["Strategy 🗺️","People 🧑‍🤝‍🧑"],       "result": "Management 📈" },
+    { "input": ["Management 📈","Time 🕒"],            "result": "Prod 🎬" },
+    { "input": ["Leadership 🕴️","People 🧑‍🤝‍🧑"],       "result": "Chris 👨‍💼" },
+    { "input": ["Lendhub 🏢",  "People 🧑‍🤝‍🧑"],         "result": "Partnership 🤝" },
+    { "input": ["Partnership 🤝","Time 🕒"],            "result": "Toorak 🏦" },
+    { "input": ["Earth 🌍",    "Law ⚖️"],             "result": "Location 📍" },
+    { "input": ["Lendhub 🏢",  "Location 📍"],         "result": "Eastcastle Street 🏢" },
+    { "input": ["People 🧑‍🤝‍🧑","Loan 🏦"],             "result": "Origination Team 👥" },
+    { "input": ["Origination Team 👥","Property 🏠"],   "result": "Brokers 🤝" },
+    { "input": ["Brokers 🤝",  "Loan 🏦"],             "result": "DealFlow 🔄" },
+    { "input": ["DealFlow 🔄", "Risk ⚠️"],            "result": "Underwriting 📝" },
+    { "input": ["Underwriting 📝","People 🧑‍🤝‍🧑"],     "result": "Credit Team 💳" },
+    { "input": ["Underwriting 📝","Time 🕒"],          "result": "Approval ✅" },
+    { "input": ["Approval ✅","People 🧑‍🤝‍🧑"],         "result": "Marketing Team 📣" },
+    { "input": ["Growth 🌱",   "Time 🕒"],             "result": "Performance 📊" },
+    { "input": ["Property 🏠", "Performance 📊"],       "result": "Portfolio Team 🗂️" },
+    { "input": ["Law ⚖️",      "Finance 💳"],          "result": "Covenant ✍️" },
+    { "input": ["Covenant ✍️","Loan 🏦"],              "result": "Terms 📋" },
+    { "input": ["Terms 📋",    "People 🧑‍🤝‍🧑"],         "result": "Agreement 🤝" },
+    { "input": ["Money 💰",    "Property 🏠"],         "result": "Equity 📊" },
+    { "input": ["Growth 🌱",   "Money 💰"],            "result": "Valuation 💹" },
+    { "input": ["Valuation 💹","Uncertainty ❓"],      "result": "DueDiligence 🔍" },
+    { "input": ["Equity 📊",   "Gap ➖"],               "result": "Refinance 🔄🏠" },
+    { "input": ["Refinance 🔄🏠","Time 🕒"],            "result": "Exit 🚪" },
+    { "input": ["Exit 🚪",     "Strategy 🗺️"],        "result": "Execution 🎯" },
+    { "input": ["Underwriting 📝","DueDiligence 🔍"],  "result": "Decisioning 🤔" },
+    { "input": ["Performance 📊","Money 💰"],          "result": "ROI 📈" },
+    { "input": ["ROI 📈",      "Growth 🌱"],           "result": "Yield 🌾" },
+    { "input": ["Lendhub 🏢",  "Yield 🌾"],            "result": "Success 🎉" },
+    { "input": ["Interest ⏳","Time 🕒"],               "result": "Rate 📈" },
+    { "input": ["Interest ⏳","Rate 📈"],               "result": "InterestRate 📈⏳" },
+    { "input": ["Loan 🏦",     "Property 🏠"],         "result": "LoanToValue 🏦📊" },
+    { "input": ["Contract 📜","Money 💰"],             "result": "Fee 💵" },
+    { "input": ["Loan 🏦",     "Contract 📜"],         "result": "ArrangementFee 💸" },
+    { "input": ["Exit 🚪",     "Contract 📜"],         "result": "ExitFee 💸🚪" },
+    { "input": ["Law ⚖️",      "Money 💰"],            "result": "Tax 🧾" },
+    { "input": ["Tax 🧾",      "Property 🏠"],         "result": "StampDuty 🏷️" },
+    { "input": ["Collateral 🔒","Law ⚖️"],            "result": "Security 🔐" },
+    { "input": ["Loan 🏦",     "Security 🔐"],         "result": "SeniorDebt 🥇📉" },
+    { "input": ["JuniorDebt 👶💰","SeniorDebt 🥇📉"],  "result": "MezzanineDebt 🥈📉" },
+    { "input": ["Property 🏠", "Money 💰"],            "result": "Fund 💼" },
+    { "input": ["People 🧑‍🤝‍🧑","Fund 💼"],             "result": "Investor 👤" },
+    { "input": ["Fund 💼",     "People 🧑‍🤝‍🧑"],         "result": "Fundraising 📢💰" },
+    { "input": ["Fundraising 📢💰","Time 🕒"],          "result": "CapitalCall 📞💰" },
+    { "input": ["Loan 🏦",     "Fund 💼"],              "result": "Disbursement 💸🏦" },
+    { "input": ["Loan 🏦",     "Exit 🚪"],              "result": "Repayment 🔄💵" },
+    { "input": ["Repayment 🔄💵","Time 🕒"],            "result": "BulletRepayment 🔫💵" },
+    { "input": ["Debt 📉",     "Equity 📊"],           "result": "CapitalStack 🏗️📊" },
+    { "input": ["Covenant ✍️","Law ⚖️"],               "result": "CovenantWaiver ✍️🚫" },
+    { "input": ["Risk ⚠️",     "Time 🕒"],             "result": "Default 🚫" },
+    { "input": ["Debt 📉",     "Strategy 🗺️"],        "result": "Restructuring 🔄🏗️" },
+    { "input": ["Underwriting 📝","Fee 💵"],            "result": "UnderwritingFee 📝💸" },
+    { "input": ["Loan 🏦",     "Disbursement 💸🏦"],     "result": "Drawdown ⬇️🏦" }
+  ]
 }
