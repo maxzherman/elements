@@ -12,6 +12,7 @@ async function loadGame() {
   combinations = data.combinations;
   hiddenEnding = data.hidden_ending;
 
+  // Load saved progress if it exists
   const savedDiscovered = JSON.parse(localStorage.getItem('discovered'));
   const savedDiscoveryPaths = JSON.parse(localStorage.getItem('discoveryPaths'));
 
@@ -84,7 +85,7 @@ function tryCombine() {
       renderElements();
       renderDiscovered();
       updateCounter();
-      saveProgress();
+      saveProgress(); // <-- Save after discovery!
 
       if (found.result === hiddenEnding.result) {
         showSpecialMessage(hiddenEnding.message);
@@ -175,6 +176,7 @@ function startConfetti() {
   }, 3000);
 }
 
+// Optional: Add Reset Progress
 function resetProgress() {
   if (confirm('Are you sure you want to reset all progress?')) {
     localStorage.removeItem('discovered');
@@ -183,23 +185,8 @@ function resetProgress() {
   }
 }
 
-function unlockAllElements() {
-  const allElements = new Set([
-    ...combinations.flatMap(c => c.input),
-    ...combinations.map(c => c.result)
-  ]);
-
-  allElements.forEach(element => {
-    if (!discovered.includes(element)) {
-      discovered.push(element);
-    }
-  });
-
-  renderElements();
-  renderDiscovered();
-  updateCounter();
-  saveProgress();
-  showSpecialMessage('All elements unlocked! 🎉');
-}
+// Attach reset function to a button if you want
+// Example:
+// <button onclick="resetProgress()">Reset Progress</button>
 
 loadGame();
