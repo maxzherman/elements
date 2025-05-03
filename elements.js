@@ -50,7 +50,7 @@ function renderDiscovered() {
   discovered.forEach(element => {
     const li = document.createElement('li');
     if (discoveryPaths[element]) {
-      li.innerText = ${element} (${discoveryPaths[element][0]} + ${discoveryPaths[element][1]});
+      li.innerText = `${element} (${discoveryPaths[element][0]} + ${discoveryPaths[element][1]})`;
     } else {
       li.innerText = element;
     }
@@ -79,7 +79,7 @@ function tryCombine() {
     if (!discovered.includes(found.result)) {
       discovered.push(found.result);
       discoveryPaths[found.result] = [first, second];
-      showSpecialMessage(You discovered: ${found.result} 🎉);
+      showSpecialMessage(`You discovered: ${found.result} 🎉`);
       startConfetti();
       renderElements();
       renderDiscovered();
@@ -115,7 +115,7 @@ function updateCounter() {
     ...combinations.map(c => c.result)
   ]).size;
 
-  counter.innerText = Discovered ${discovered.length} / ${totalElements} elements;
+  counter.innerText = `Discovered ${discovered.length} / ${totalElements} elements`;
 }
 
 function startConfetti() {
@@ -133,7 +133,7 @@ function startConfetti() {
       y: Math.random() * canvas.height - canvas.height,
       r: Math.random() * 6 + 2,
       d: Math.random() * confettiCount,
-      color: hsl(${Math.random() * 360}, 70%, 60%),
+      color: `hsl(${Math.random() * 360}, 70%, 60%)`,
       tilt: Math.floor(Math.random() * 10) - 10,
       tiltAngleIncrement: (Math.random() * 0.07) + 0.05,
       tiltAngle: 0
