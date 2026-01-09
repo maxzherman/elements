@@ -1,0 +1,3 @@
+[submodule "clawdis"]
+	path = clawdis
+	url = https://github.com/steipete/clawdis.git
